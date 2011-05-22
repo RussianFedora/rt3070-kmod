@@ -1,0 +1,11 @@
+diff -rupN DPO_RT3070_LinuxSTA_V2.3.0.4_20100604.old/common/rtusb_dev_id.c DPO_RT3070_LinuxSTA_V2.3.0.4_20100604/common/rtusb_dev_id.c
+--- DPO_RT3070_LinuxSTA_V2.3.0.4_20100604.old/common/rtusb_dev_id.c	2010-06-02 03:25:54.000000000 -0400
++++ DPO_RT3070_LinuxSTA_V2.3.0.4_20100604/common/rtusb_dev_id.c	2010-09-05 02:06:24.000000000 -0400
+@@ -106,6 +106,7 @@ USB_DEVICE_ID rtusb_dev_id[] = {
+ 	{USB_DEVICE(0x07FA,0x7712)}, /* Edimax */
+ 	{USB_DEVICE(0x0789,0x0166)}, /* Edimax */
+ 	{USB_DEVICE(0x148F,0x2070)}, /* Edimax */
++	{USB_DEVICE(0x177F,0x0153)}, /* Sweex */
+ #endif // RT3070 //
+ 	{ }/* Terminating entry */
+ };
